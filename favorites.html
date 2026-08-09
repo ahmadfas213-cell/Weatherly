@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1.0"
+    >
+
+    <meta
+        name="theme-color"
+        content="#07080c"
+    >
+
+    <title>Weatherly - Favorites</title>
+
+    <link
+        rel="stylesheet"
+        href="./style.css"
+    >
+
+</head>
+
+
+<body>
+
+<main class="app">
+
+    <div class="weather-card">
+
+
+        <header class="top">
+
+            <div>
+
+                <p class="label">
+                    WEATHERLY
+                </p>
+
+                <h1>
+                    Favorite Cities
+                </h1>
+
+            </div>
+
+
+            <div class="status">
+
+                <span></span>
+
+                Online
+
+            </div>
+
+        </header>
+
+
+
+        <nav class="navbar">
+
+            <a
+                href="index.html"
+                class="nav-link"
+            >
+                Home
+            </a>
+
+
+            <a
+                href="forecast.html"
+                class="nav-link"
+            >
+                Forecast
+            </a>
+
+
+            <a
+                href="favorites.html"
+                class="nav-link active"
+            >
+                Favorites
+            </a>
+
+        </nav>
+
+
+
+        <section class="favorites-section">
+
+            <div class="favorites-header">
+
+                <p class="label">
+                    SAVED CITIES
+                </p>
+
+                <h2>
+                    Kota Favorit
+                </h2>
+
+            </div>
+
+
+            <div
+                id="favoritesList"
+                class="favorites-list"
+            ></div>
+
+
+            <div
+                id="emptyFavorites"
+                class="empty-favorites hidden"
+            >
+
+                <div class="empty-icon">
+                    ☆
+                </div>
+
+
+                <h3>
+                    Belum ada kota
+                </h3>
+
+
+                <p>
+                    Tambahkan kota dari halaman Home.
+                </p>
+
+
+                <a
+                    href="index.html"
+                    class="back-home"
+                >
+                    Cari Kota
+                </a>
+
+            </div>
+
+        </section>
+
+
+    </div>
+
+</main>
+
+
+<script src="./favorites.js"></script>
+
+</body>
+
+</html>
